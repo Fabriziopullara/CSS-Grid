@@ -1,0 +1,68 @@
+.grid-container{
+display: grid;
+grid-template-columns: repeat(6,1fr);
+grid-template-rows: repeat(4,1fr);
+width: 85%;
+height: 80%;
+grid-gap: 10px;
+}
+
+.grid
+{
+  border: solid 4px black; 
+  
+}
+
+.first{
+  grid-column: 1 / 3;
+  grid-row: 1 / 4;
+}
+
+.sixth{
+  grid-column: 1 / 3;
+  grid-row: 4 / 7;
+}
+
+.second{
+  grid-column: 3 / 5;
+  grid-row: 1 / 7;
+}
+
+.seventh{
+  grid-row: 7 / 15;
+  grid-column: 1 / 3;
+}
+
+.third{
+  grid-column: 5 / 8;
+  grid-row: 1 / 3;
+}
+
+.fourth{
+  grid-row: 3 / 5;
+  grid-column: 5 / 8;
+}
+
+.fifth{
+  grid-row: 5 / 7 ;
+  grid-column: 5 / 8;
+}
+
+.eight{
+  grid-row: 7 / 10;
+  grid-column: 3 / 4;
+
+}
+
+.nineth{
+  grid-row: 10 / 15;
+  grid-column: 3 / 4;
+}
+
+.tenth{
+  grid-row: 7 / 15 ;
+grid-column:  4 / 6 ;}
+
+.eleventh{
+  grid-row: 7 / 15 ;
+}
